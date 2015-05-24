@@ -29,7 +29,7 @@ defmodule EctoRiakAdapter.Mixfile do
     # riak_pb_compile_cmd = "./rebar compile skip_deps=true deps_dir=#{inspect full_deps_path}"
     [
       {:ecto,    ">= 0.2.4"},
-      {:decimal, "~> 0.2.5"},
+      {:decimal, ">= 0.2.5"},
       {:poison,  github: "devinus/poison"},
       {:riakc,   github: "basho/riak-erlang-client"},
       {:riak_pb, github: "basho/riak_pb", compile: "./rebar get-deps compile deps_dir=../", override: true}
