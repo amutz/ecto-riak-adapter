@@ -31,8 +31,8 @@ defmodule EctoRiakAdapter.Mixfile do
       {:ecto,    ">= 0.2.4"},
       {:decimal, ">= 0.2.5"},
       {:poison,  github: "devinus/poison"},
-      {:riakc,   github: "basho/riak-erlang-client", tag: "2.1.0.2"},
-      {:riak_pb, github: "basho/riak_pb", compile: "./rebar get-deps compile deps_dir=../", override: true, tag: "2.1.0.2"}
+      {:riakc,   github: "basho/riak-erlang-client", tag: "2.1.0.1"},
+      {:riak_pb, github: "basho/riak_pb", compile: "./rebar get-deps compile deps_dir=../", override: true, tag: "2.1.0.1"}
     ]
   end
 end
