@@ -28,7 +28,7 @@ defmodule EctoRiakAdapter.Mixfile do
     # full_deps_path = Path.expand Mix.Project.config[:deps_path]
     # riak_pb_compile_cmd = "./rebar compile skip_deps=true deps_dir=#{inspect full_deps_path}"
     [
-      {:ecto,    "~> 0.2.4"},
+      {:ecto,    ">= 0.2.4"},
       {:decimal, "~> 0.2.5"},
       {:poison,  github: "devinus/poison"},
       {:riakc,   github: "basho/riak-erlang-client"},
